@@ -224,3 +224,4 @@ enum InvestmentSortOption: String, CaseIterable {
     case purchaseDate = "Purchase Date"
     case type = "Type"
 }
+

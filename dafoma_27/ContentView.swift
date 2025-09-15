@@ -54,6 +54,10 @@ struct ContentView: View {
                 } else if isBlock == false {
                     
                     WebSystem()
+                        .onAppear {
+                            
+                            InstallReporter.send()
+                        }
                 }
             }
         }
@@ -65,7 +69,7 @@ struct ContentView: View {
     
     private func check_data() {
         
-        let lastDate = "06.09.2025"
+        let lastDate = "21.09.2025"
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd.MM.yyyy"

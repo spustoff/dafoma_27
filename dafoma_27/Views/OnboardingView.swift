@@ -417,3 +417,4 @@ enum InvestmentExperience: String, CaseIterable {
 #Preview {
     OnboardingView()
 }
+

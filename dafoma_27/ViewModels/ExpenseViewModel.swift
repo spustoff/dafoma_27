@@ -164,3 +164,4 @@ enum ExpenseSortOption: String, CaseIterable {
     case titleDescending = "Title (Z-A)"
     case category = "Category"
 }
+
